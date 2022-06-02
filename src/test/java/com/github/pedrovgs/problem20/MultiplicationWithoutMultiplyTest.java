@@ -45,5 +45,9 @@ public class MultiplicationWithoutMultiplyTest {
 
   @Test public void shouldTakeIntoAccountNegativeNumbers() {
     assertEquals(-14, multiply.calculate(-2, 7));
+  }  
+   @Test public void shouldTakeIntoAccountNegativeNumbers() {
+    assertEquals(-49, multiply.calculate(-7, 7));
   }
 }
+
